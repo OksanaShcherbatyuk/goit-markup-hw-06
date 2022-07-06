@@ -994,9 +994,9 @@ button {
     padding: 20px 24px;
 }
 
-.products:nth-child(-n + 3) {
+/*.products:nth-child(-n + 3) {
     margin-top: 0;
-}
+}*/
 
 .products:nth-last-child(-n + 3) {
     margin-bottom: 0;
