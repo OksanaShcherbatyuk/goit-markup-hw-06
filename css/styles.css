@@ -826,7 +826,7 @@ button {
     display: inline-block;
     flex-wrap: wrap;
     justify-content: space-between;
-    min-width: 570px;
+    /*min-width: 570px;*/
 }
 
 .newsletter {
