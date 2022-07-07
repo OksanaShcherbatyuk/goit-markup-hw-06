@@ -846,7 +846,7 @@ button {
     padding: 15px 16px;
     margin-right: 12px;
     background-color: inherit;
-    
+    color: #fff
 }
 
 .newsletter input:placeholder-shown {
