@@ -316,7 +316,6 @@ button {
 }
 
 .form-input {
-    position: relative;
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -326,6 +325,7 @@ button {
     color: var(--text-color-primary);
 
     width: 100%;
+    height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
@@ -347,11 +347,16 @@ button {
 .form-input:focus~.modal-icon svg {
     color: var(--brand-color);
 }
-
+.form-field-icon {
+    position: relative;
+}
 .modal-icon {
-    fill: currentColor;
     position: absolute;
     top: 50%;
+
+    transform: translate(-50%, -50%);
+    fill: currentColor;
+    position: absolute;
     left: 12px;
 }
 
