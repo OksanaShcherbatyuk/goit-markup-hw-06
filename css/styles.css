@@ -838,6 +838,7 @@ button {
 }
 
 .newsletter-input {
+    color: var(--background-color)
     border: 1px solid rgba(255, 255, 255, 0.3);
     min-width: 358px;
     min-height: 50px;
@@ -845,6 +846,7 @@ button {
     padding: 15px 16px;
     margin-right: 12px;
     background-color: inherit;
+    color: #fff;
 }
 
 .newsletter input:placeholder-shown {
@@ -854,6 +856,7 @@ button {
     text-align: left;
     color: rgba(255, 255, 255, 0.6);
 }
+
 
 .newsletter-container {
     display: flex;
